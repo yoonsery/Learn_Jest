@@ -18,8 +18,8 @@ describe('ProductService', () => {
 
   beforeEach(() => {
     productService = new ProductService();
-    // fetchItems.mockClear();
-    // ProductClient.mockClear();
+    fetchItems.mockClear();
+    ProductClient.mockClear();
   });
 
   it('should filter out only available true', async () => {
